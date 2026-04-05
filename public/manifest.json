@@ -1,0 +1,13 @@
+{
+  "name": "CantonManager",
+  "short_name": "CantonMgr",
+  "description": "Canton Fair 2026 - Sourcing Manager",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f9fafb",
+  "theme_color": "#1e3a5f",
+  "orientation": "portrait",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

@@ -4,12 +4,14 @@ import RFQs from './pages/RFQs'
 import Proveedores from './pages/Proveedores'
 import Agenda from './pages/Agenda'
 import Configuracion from './pages/Configuracion'
+import Chat from './pages/Chat'
 
 const TABS = [
   { id: 'dashboard', label: 'Dashboard' },
   { id: 'rfqs', label: 'RFQs' },
   { id: 'proveedores', label: 'Proveedores' },
   { id: 'agenda', label: 'Agenda' },
+  { id: 'chat', label: '💬 Chat' },
   { id: 'config', label: 'Configuración' },
 ]
 
@@ -41,6 +43,7 @@ export default function App() {
         {tab === 'rfqs' && <RFQs />}
         {tab === 'proveedores' && <Proveedores />}
         {tab === 'agenda' && <Agenda />}
+        {tab === 'chat' && <Chat />}
         {tab === 'config' && <Configuracion />}
       </main>
     </div>
